@@ -2,19 +2,31 @@ body{
     margin:0;
     background-color: rgb(57, 66, 66);
     display: grid;
-    grid-template-columns:100% ;
-    grid-template-rows:70px 50px;
+    grid-template-columns:15% 70% 15% ;
+    grid-template-rows:56px 40px 1fr;
     grid-template-areas:
+    'dp dp dp dp'
     'hd hd hd hd'
-    'dp dp dp dp';
-
+    'ct ct ct ct'
+    'ft ft ft ft';
+    color: aliceblue;
 }
 header{
-    background-color: blueviolet;
+    background-color: rgb(24, 21, 27);
     grid-area:hd;
 }
-
+nav{
+    display: flex;
+    flex-direction:row;
+}
 #display{
     grid-area:dp;
-    
+    background-color: rgb(10, 43, 29);
 }
+.content{
+    grid-area:ct;
+}
+footer{
+    grid-area: ft;
+}
+ 
