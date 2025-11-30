@@ -3,7 +3,7 @@ body{
     background-color: rgb(57, 66, 66);
     display: grid;
     grid-template-columns:15% 70% 15% ;
-    grid-template-rows:56px 40px 1fr;
+    grid-template-rows:4vh 6vh 280vh 10vh;
     grid-template-areas:
     'dp dp dp dp'
     'hd hd hd hd'
@@ -11,22 +11,46 @@ body{
     'ft ft ft ft';
     color: aliceblue;
 }
+
+
 header{
     background-color: rgb(24, 21, 27);
     grid-area:hd;
 }
+
+
 nav{
     display: flex;
     flex-direction:row;
 }
+
+
 #display{
     grid-area:dp;
     background-color: rgb(10, 43, 29);
 }
-.content{
+
+
+#content{
     grid-area:ct;
+    background-color: aquamarine;
+    margin-left: 15%;
+    margin-right: 15%;
 }
+
+
+.article_type1{
+    color:red
+}
+.article_type2{
+    color: green;
+}
+.article_type3{
+    color: blue;
+}
+
+
 footer{
     grid-area: ft;
+    background-color: blueviolet;
 }
- 
