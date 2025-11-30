@@ -22,8 +22,17 @@ header{
 nav{
     display: flex;
     flex-direction:row;
+    align-content: center;
 }
-
+.naver{
+    background-color: rgb(24, 21, 27);
+    margin:5px;
+    transition: 500ms;
+}
+.naver:hover{
+    background-color:#2980b9;
+    cursor: pointer;
+}
 
 #display{
     grid-area:dp;
@@ -36,21 +45,34 @@ nav{
     background-color: aquamarine;
     margin-left: 15%;
     margin-right: 15%;
+    display: flex;
+    flex-direction: column;
 }
 
 
-.article_type1{
+.article_type1{ 
     color:red
 }
+/*article_type1 specifications:
+
+*/
+
 .article_type2{
     color: green;
 }
+/*article_type2 specifications:
+
+*/
+
 .article_type3{
     color: blue;
 }
+/*article_type3 specifications:
+
+*/
 
 
 footer{
     grid-area: ft;
-    background-color: blueviolet;
+    background-color: #2980b9;
 }
