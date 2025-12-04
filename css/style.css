@@ -26,6 +26,10 @@ nav{
     display: flex;
     flex-direction:row;
 }
+@font-face {
+    font-family: 'agency_fb'; /*a name to be used later*/
+    src: url('../misc/agencyfb_bold.ttf'); /*URL to font*/
+}
 .naver{
     background-color: rgb(40, 38, 46);
     margin:10px 5px 10px 5px;
@@ -38,6 +42,8 @@ nav{
     color: aliceblue;
     border: none;
     text-decoration: none;
+    font-family:agency_fb;
+    font-size: 21px;
 }
 .naver:hover{
     background-color:#2980b9;
@@ -64,12 +70,17 @@ a
 }
 
 
-.article_big{ 
+.type1{ 
     color:red;
 }
-img.article_big{
-    width: 160px;
-    height: 90px;
+article.type1{
+    display: flex;
+    flex-direction: row;
+}
+div
+img.type1{
+    width: 800px;
+    height: 450px;
 }
 /*article_big specifications:
 
