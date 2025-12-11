@@ -15,7 +15,7 @@ body{
 header{
     background-color: rgb(40, 38, 46);
     grid-area:hd;
-    border: 1px #2980b9 solid ;
+    border: 1px aliceblue solid ;
     border-left: 0px;
     border-right: 0px;
 }
@@ -63,10 +63,10 @@ a
 #content{
     grid-area:ct;
     background-color: rgb(52, 49, 58);
-    margin: 50px 15% 50px 15%;
+    margin: 0px 15% 50px 15%;
     display: flex;
     flex-direction: column;
-    border: 1px #2980b9 solid;
+    border: 1px aliceblue solid;
 }
 
 
@@ -77,6 +77,11 @@ article.type1{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: 'img txt';
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+article.type1:hover{
+    background-color:#2980b9;
 }
 div.type1{
     grid-area: txt;
@@ -93,7 +98,6 @@ div.type1{
 h2.type1{
     font-size: 50px;
 }
-div
 img.type1{
     grid-area: img;
     width: 800px;
@@ -102,9 +106,39 @@ img.type1{
 /*article_big specifications:
 
 */
-
-.article_small{
-    color: green;
+.collection{
+    display: flex;
+    flex-direction: row;
+}
+.type2{ 
+    color:aliceblue;
+}
+article.type2{
+    display: grid;
+    grid-template-areas: 'img txt';
+    grid-template-columns: 1fr 4fr;
+    padding-bottom: 20px;
+    width:25%;
+    height:width;
+}
+div.type2{
+    grid-area: txt;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family:agency_fb;
+    margin-left:20px;
+    margin-right: 20px;
+    
+}
+h2.type2{
+    font-size: 20px;
+}
+img.type2{
+    grid-area: img;
+    width: 100px;
+    height: 100px;
 }
 /*article_small specifications:
 
@@ -120,7 +154,7 @@ img.type1{
 footer{
     grid-area: ft;
     background-color: rgb(40, 38, 46);
-    border: 1px #2980b9 solid ;
+    border: 1px aliceblue solid ;
     border-left: 0px;
     border-right: 0px;
     border-bottom: 0px;
