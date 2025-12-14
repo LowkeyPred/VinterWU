@@ -3,7 +3,7 @@ body{
     background-color: rgb(40, 38, 46);
     display: grid;
     grid-template-columns:15% 70% 15% ;
-    grid-template-rows:4vh 6vh 280vh 10vh;
+    grid-template-rows:4vh 6vh 180vh 80vh;
     grid-template-areas:
     'dp dp dp dp'
     'hd hd hd hd'
@@ -64,11 +64,10 @@ a{
 
 #content{
     grid-area:ct;
-    background-color: rgb(52, 49, 58);
+    background-color: rgb(40, 38, 46);
     margin: 0px 15% 50px 15%;
     display: flex;
     flex-direction: column;
-    border: 1px aliceblue solid;
 }
 
 
@@ -119,7 +118,6 @@ a.type2{
     width:25%;
     height:width;
     padding-bottom: 20px;
-}
 }
 article.type2{
     display: grid;
