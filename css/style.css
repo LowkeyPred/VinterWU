@@ -3,7 +3,7 @@ body{
     background-color: rgb(40, 38, 46);
     display: grid;
     grid-template-columns:15% 70% 15% ;
-    grid-template-rows:4vh 6vh 180vh 60vh;
+    grid-template-rows:4vh 6vh auto 60vh;
     grid-template-areas:
     'dp dp dp dp'
     'hd hd hd hd'
@@ -69,8 +69,9 @@ a{
     display: flex;
     flex-direction: column;
 }
-
-
+#employees{
+    display: grid;
+}
 .type1{ 
     color:aliceblue;
 }
