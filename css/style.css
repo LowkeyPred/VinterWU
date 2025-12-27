@@ -3,10 +3,10 @@ body{
     background-color: rgb(40, 38, 46);
     display: grid;
     grid-template-columns:15% 70% 15% ;
-    grid-template-rows:4vh 6vh auto 60vh;
+    grid-template-rows:6vh 4vh auto 60vh;
     grid-template-areas:
-    'dp dp dp dp'
     'hd hd hd hd'
+    'dp dp dp dp'
     'ct ct ct ct'
     'ft ft ft ft';
 }
@@ -15,9 +15,7 @@ body{
 header{
     background-color: rgb(40, 38, 46);
     grid-area:hd;
-    border: 1px aliceblue solid ;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 1px aliceblue solid;
 }
 
 
@@ -30,7 +28,7 @@ nav{
     font-family: 'agency_fb'; /*a name to be used later*/
     src: url('../misc/agencyfb_bold.ttf'); /*URL to font*/
 }
-.naver{
+.nav_button{
     background-color: rgb(40, 38, 46);
     margin:10px 5px 10px 5px;
     transition: 500ms;
@@ -45,20 +43,27 @@ nav{
     font-family:agency_fb;
     font-size: 21px;
 }
-.naver:hover{
+.nav_button:hover{
     background-color:#2980b9;
     cursor: pointer;
 }
-.naver:active{
+.nav_button:active{
     background-color: #2980b9;
 }
 a{
     text-decoration: none;
 }
+#login{
+    background-color: #2980b9;
+    color: rgb(40, 38, 46);
+    justify-self:end;
+}
 
 #display{
     grid-area:dp;
-    background-color: rgb(21, 95, 64);
+    background-color: rgb(0, 0, 0);
+    position: sticky;
+    top: 0%;
 }
 
 
