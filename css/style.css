@@ -58,6 +58,9 @@ a{
     color: rgb(40, 38, 46);
     justify-self:end;
 }
+#login:hover{
+    background-color: aliceblue;
+}
 
 #display{
     grid-area:dp;
@@ -156,7 +159,6 @@ div.type2{
     font-family:agency_fb;
     margin-left:20px;
     margin-right: 20px;
-    
 }
 h2.type2{
     font-size: 20px;
@@ -208,6 +210,11 @@ img.type2{
 
 
 
+
+
+
+
+
 footer{
     grid-area: ft;
     background-color: rgb(30, 29, 32);
@@ -216,18 +223,16 @@ footer{
     border-right: 0px;
     border-bottom: 0px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
-
-}
-div.f{
-    color: aliceblue;
-    margin-top: 200px;
-    padding: 50px;
-    height:100px;
+    font-size: smaller;
     color: rgb(109, 106, 112);
 }
+div.f{
+    align-self: center;
+    width: 600px;
+}
 div.f:not(:last-child){
-    border-right: 1px solid rgb(50, 48, 53);
+    border-bottom: 1px solid rgb(50, 48, 53);
 }
