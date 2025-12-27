@@ -69,9 +69,9 @@ a{
     display: flex;
     flex-direction: column;
 }
-#employees{
-    display: grid;
-}
+
+
+
 .type1{ 
     color:aliceblue;
 }
@@ -105,9 +105,21 @@ img.type1{
     width: 800px;
     height: 450px;
 }
-/*article_big specifications:
-
+/*article_type_1 specifications:
+        <a href="">
+            <article class="type1">
+                <img class="type1" src="  16:9 image  " alt="">
+                <div class="type1">
+                    <h2 class="type1">  HEADLINE  </h2>
+                    <p class="type1">  by author  </p>
+                    <p class="type1">  xx/xx/xxxx  </p>
+                </div>
+            </article>
+        </a>
 */
+
+
+
 .collection{
     display: flex;
     flex-direction: row;
@@ -149,16 +161,47 @@ img.type2{
     width: 100px;
     height: 100px;
 }
-/*article_small specifications:
+/*article_type_2 specifications:
+<div class="collection">
+            <a href="">
+                <article class="type2">
+                    <img class="type2" src="../img/fixed-ratio.webp" alt="">
+                    <div class="type2">
+                        <h2 class="type2">Grischelino fotograferad med Epstein. Hela NASDAQ slimad</h2>
+                    </div>
+                </article>
+            </a>
 
+            <a href="">
+                <article class="type2">
+                    <img class="type2" src="../img/fixed-ratio.webp" alt="">
+                    <div class="type2">
+                        <h2 class="type2">Grischelino fotograferad med Epstein. Hela NASDAQ slimad</h2>
+                    </div>
+                </article>
+            </a>
+
+            <a href="">
+                <article class="type2">
+                    <img class="type2" src="../img/fixed-ratio.webp" alt="">
+                    <div class="type2">
+                        <h2 class="type2">Grischelino fotograferad med Epstein. Hela NASDAQ slimad</h2>
+                    </div>
+                </article>
+            </a>
+
+            <a href="">
+                <article class="type2">
+                    <img class="type2" src="../img/fixed-ratio.webp" alt="">
+                    <div class="type2">
+                        <h2 class="type2">Grischelino fotograferad med Epstein. Hela NASDAQ slimad</h2>
+                    </div>
+                </article>
+            </a>
+        </div>
 */
 
-.article_wild{
-    color: blue;
-}
-/*article_wild specifications:
 
-*/
 
 footer{
     grid-area: ft;
