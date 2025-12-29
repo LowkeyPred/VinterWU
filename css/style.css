@@ -208,6 +208,26 @@ img.type2{
         </div>
 */
 
+.reading{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: agency_fb;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.heading img{
+    height: 20em;
+}
+.heading h1{
+    font-size: 4em;
+}
+.reading p{
+    font-size: 2em;
+}
 
 
 
