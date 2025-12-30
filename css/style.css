@@ -229,6 +229,9 @@ img.type2{
 .reading p{
     font-size: 2em;
 }
+.reading *{
+    max-width: 100%;
+}
 
 
 
