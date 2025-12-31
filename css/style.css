@@ -67,9 +67,32 @@ a{
     background-color: rgb(0, 0, 0);
     position: sticky;
     top: 0%;
+    display: flex;
+    overflow-x: auto;
+    overflow-y: none;
+    scrollbar-width: none;
+}
+#feed{
+    display: flex;
+    align-content: center;
+    height: 100%;
+    gap: 30em;
+    animation:spin 15s infinite linear;
+}
+.card{
+    flex: 0 0 auto;
+    background-color: none;
+    width: auto;
+    height: 100%;
+    align-content: center;
+    color: aliceblue;
+
 }
 
-
+@keyframes spin{
+    from {translate: 100%;}
+    to{translate: -100%;}
+}
 #content{
     grid-area:ct;
     background-color: rgb(40, 38, 46);
