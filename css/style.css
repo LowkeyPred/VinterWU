@@ -1,4 +1,4 @@
-body{
+body.main{
     margin:0;
     background-color: rgb(40, 38, 46);
     display: grid;
@@ -10,7 +10,21 @@ body{
     'ct ct ct ct'
     'ft ft ft ft';
 }
+body.login{
+    display: flex;
+    margin:0;
+    background-color: rgb(40, 38, 46);
+    width:100vw;
+    height: 100vh;
+    justify-content: center;
+}
 
+.login_site{
+    width: 60em;
+    height: 50em;
+    background-color: #2980b9;
+    place-self: center;
+}
 
 header{
     background-color: rgb(40, 38, 46);
@@ -23,6 +37,13 @@ nav{
     height: 100%;
     display: flex;
     flex-direction:row;
+    justify-content: space-between;
+    margin: 0 1em 0 1em;
+}
+nav div{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
 }
 @font-face {
     font-family: 'agency_fb'; /*a name to be used later*/
@@ -54,12 +75,12 @@ a{
     text-decoration: none;
 }
 #login{
-    background-color: #2980b9;
+    background-color: aliceblue;
     color: rgb(40, 38, 46);
     justify-self:end;
 }
 #login:hover{
-    background-color: aliceblue;
+    background-color: #2980b9;
 }
 
 #display{
