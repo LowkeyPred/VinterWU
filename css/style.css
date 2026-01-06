@@ -14,6 +14,8 @@ body.login{
     display: flex;
     margin:0;
     background-color: rgb(40, 38, 46);
+    background-image: url(../img/fixed-ratio.webp);
+    background-size: 100vw 100vh;
     width:100vw;
     height: 100vh;
     justify-content: center;
@@ -30,7 +32,7 @@ body.login{
     place-self: center;
     border-radius: 4px;
     border: aliceblue 1px solid;
-    row-gap: 1em;
+    row-gap: 0.7em;
 }
 .login_site input{
     border: none;
@@ -129,7 +131,7 @@ a{
     gap: 30em;
     animation:spin 15s infinite linear;
 }
-.card{
+.wewo{
     flex: 0 0 auto;
     background-color: none;
     width: auto;
@@ -180,6 +182,9 @@ div.type1{
 }
 h2.type1{
     font-size: 50px;
+}
+p.type1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 img.type1{
     grid-area: img;
@@ -278,6 +283,9 @@ img.type2{
         </div>
 */
 
+
+
+
 .reading{
     display: flex;
     flex-direction: column;
@@ -294,9 +302,11 @@ img.type2{
 }
 .heading h1{
     font-size: 4em;
+    margin: 0.5em;
 }
 .reading p{
     font-size: 2em;
+    margin: 0.5em;
 }
 .reading *{
     max-width: 100%;
