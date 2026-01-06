@@ -186,7 +186,7 @@ img.type1{
     width: 800px;
     height: 450px;
 }
-/*article_type_1 specifications:
+/*article type1 specifications:
         <a href="">
             <article class="type1">
                 <img class="type1" src="  16:9 image  " alt="">
@@ -319,13 +319,31 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    font-size: smaller;
-    color: rgb(109, 106, 112);
+    font-size: smaller;;
 }
-div.f{
+div.ft_layer1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     align-self: center;
+    place-self: center;
     width: 600px;
-}
-div.f:not(:last-child){
+    color: rgb(109, 106, 112);
     border-bottom: 1px solid rgb(50, 48, 53);
+}
+.ft_layer2{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+div.ft_layer2 a{
+    color: rgb(109, 106, 112);
+    place-self: center;;
+}
+div.ft_layer2 a:hover{
+    text-decoration: underline;
+    color: rgb(129, 126, 131);
 }
