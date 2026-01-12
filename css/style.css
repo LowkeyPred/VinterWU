@@ -146,20 +146,20 @@ a{
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction: row;
-    gap: 10px;
+    gap: 1em;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    padding: 2em;
+    padding: 2em 2em 0 2em;
     background-color: rgb(45, 43, 49);
     width: 16em;
-    height: 26em;
-    border-radius: 4px;
+    height: 28em;
+    border-radius: 1em;
     border: 1px aliceblue solid;
     color: aliceblue;
-    font-family: agency_fb;
+    font-family:agency_fb;
     letter-spacing: 1px;
 }
 .card *{
@@ -170,6 +170,8 @@ a{
 .card img{
     width: 16em;
     height: 20em;
+    border-radius: 0.5em;
+    border: 1px aliceblue solid;
 }
 @keyframes spin{
     from {translate: 100%;}
@@ -357,6 +359,7 @@ footer{
     justify-content: center;
     align-content: center;
     font-size: smaller;;
+    font-size: 1em;
 }
 div.ft_layer1{
     display: flex;
